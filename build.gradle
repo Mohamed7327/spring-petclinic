@@ -54,6 +54,7 @@ dependencies {
   testImplementation 'org.testcontainers:mysql'
   checkstyle "io.spring.javaformat:spring-javaformat-checkstyle:${springJavaformatCheckstyleVersion}"
   checkstyle "com.puppycrawl.tools:checkstyle:${checkstyleVersion}"
+  testImplementation 'org.testng:testng:7.10.1'
 }
 
 tasks.named('test') {
